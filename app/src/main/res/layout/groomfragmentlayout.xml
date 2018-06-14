@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scroll"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:clipToPadding="false"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    >
+    <FrameLayout
+        android:layout_width="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layout_behavior="@string/appbar_scrolling_view_behavior"
+            android:id="@+id/imageView"
+            />
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            app:layout_behavior="@string/appbar_scrolling_view_behavior"
+            android:layout_height="match_parent">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginLeft="5dp"
+                android:orientation="vertical"
+                android:background="@drawable/zgroom">
+
+
+                <TextView
+                    android:id="@+id/txt_1a"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:textAlignment="center"
+                    android:textColor="#bdbdbd"
+                    android:text="Name"
+                    android:textSize="22sp"
+                    />
+
+                <TextView
+                    android:id="@+id/txt_1b"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    android:text="Madhuvan Verma"
+                    android:textSize="28sp"
+                    />
+
+                <TextView
+                    android:id="@+id/txt_2a"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:textAlignment="center"
+                    android:textColor="#bdbdbd"
+                    android:text="PetName"
+                    android:textSize="22sp"
+                    />
+
+                <TextView
+                    android:id="@+id/txt_2b"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    android:text="Simpu"
+                    android:textSize="28sp"
+                    />
+
+                <TextView
+                    android:id="@+id/txt_3a"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:textAlignment="center"
+                    android:textColor="#bdbdbd"
+                    android:text="Hobbies"
+                    android:textSize="22sp"
+                    />
+
+                <TextView
+                    android:id="@+id/txt_3b"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    android:text="Listening Music"
+                    android:textSize="28sp"
+                    />
+
+                <TextView
+                    android:id="@+id/txt_31a"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:textAlignment="center"
+                    android:textColor="#bdbdbd"
+                    android:text="Education"
+                    android:textSize="22sp"
+                    />
+
+                <TextView
+                    android:id="@+id/txt_31b"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    android:text="BTech from VIT University"
+                    android:textSize="28sp"
+                    />
+
+                <TextView
+                    android:id="@+id/txt_32a"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:textAlignment="center"
+                    android:textColor="#bdbdbd"
+                    android:text="Job Status"
+                    android:textSize="22sp"
+                    />
+
+                <TextView
+                    android:id="@+id/txt_32b"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    android:text="Engg. in BSNL"
+                    android:textSize="28sp"
+                    />
+
+                <TextView
+                    android:id="@+id/txt_4a"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:textAlignment="center"
+                    android:textColor="#bdbdbd"
+                    android:text="Best Moment in Life"
+                    android:textSize="22sp"
+                    />
+
+                <TextView
+                    android:id="@+id/txt_4b"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    android:text="Still waiting for such Moment"
+                    android:textSize="28sp"
+                    />
+
+                <TextView
+                    android:id="@+id/txt_5a"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:textAlignment="center"
+                    android:textColor="#bdbdbd"
+                    android:text="Describe Yourself"
+                    android:textSize="22sp"
+                    />
+
+                <TextView
+                    android:id="@+id/txt_5b"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    android:text="One word which really Describe me is Responsibility, for me family comes First."
+                    android:textSize="28sp"
+                    />
+
+                <TextView
+                    android:id="@+id/txt_6a"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:textAlignment="center"
+                    android:textColor="#bdbdbd"
+                    android:text="Describe Khushboo Verma"
+                    android:textSize="22sp"
+                    />
+
+                <TextView
+                    android:id="@+id/txt_6b"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="20dp"
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    android:text="She is Caring, sensible and adorable"
+                    android:textSize="28sp"
+                    />
+
+            </LinearLayout>
+
+
+            <TextView
+                android:id="@+id/txt_date"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:textAlignment="center"
+                android:textColor="#c62828"
+                android:text="To Know More About Madhuvan Verma view the Slider."
+                android:textSize="30sp"
+                />
+
+            <TextView
+                android:id="@+id/txt_slid"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="-5dp"
+                android:textAlignment="center"
+                android:text="Enjoy the App"
+                android:textSize="18sp"
+                />
+
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/recyclerView"
+                app:layout_behavior="@string/appbar_scrolling_view_behavior"
+                android:layout_width="match_parent"
+                android:layout_height="250dp">
+
+            </android.support.v7.widget.RecyclerView>
+
+        </LinearLayout>
+    </FrameLayout>
+
+
+
+</android.support.v4.widget.NestedScrollView>
